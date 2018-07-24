@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>{{  title }} - Baseplate for Header</title>
+    {%  else %}
+    <title>Boring Baseplate for Header</title>
+    {% endif %}
+
+</head>
+<body>
+<div>Take me  <a href="/index"> Home</a></div>
+<hr>
+{%  block content %}  {%  endblock %}
+</body>
+</html>
